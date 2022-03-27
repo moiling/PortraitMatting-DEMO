@@ -83,14 +83,6 @@ class Matting:
         [image] = ToTensor()([image])
         image = image.unsqueeze(dim=0)
         return image
-
-    def __load_trimap_tensor(self, trimap_path, max_size=-1):
-        trimap = Image.open(trimap_path).convert('L')
-        if max_size > 0:
-            [trimap] = ResizeIfBiggerThan(max_size)([trimap])
-        [trimap] = ToTensor()([trimap])
-        trimap = trimap.unsqueeze(dim=0)
-        return trimap
     
 
 class ResizeIfBiggerThan(object):

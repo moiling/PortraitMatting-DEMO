@@ -9,9 +9,9 @@
     <th>Composition</th>
   </tr>
   <tr>
-    <td><img src="./img/Jackie%20Chan.jpeg"/></td>
-    <td><img src="./out/matte/Jackie%20Chan.jpeg"/></td>
-    <td><img src="./out/comp/Jackie%20Chan.jpeg"/></td>
+    <td><img src="./img/Jackie%20Chan.png"/></td>
+    <td><img src="./out/matte/Jackie%20Chan.png.png"/></td>
+    <td><img src="./out/comp/Jackie%20Chan.png.png"/></td>
   </tr>
 </table>
 
